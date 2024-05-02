@@ -7,6 +7,20 @@
 
 // Aquí tu código
 
+function perimetroTriangulo($lado1, $lado2, $lado3){
+    if ($lado1 + $lado2 > $lado3 && $lado1 + $lado3 > $lado2 and $lado2 + $lado3 > $lado1) {
+        echo "es un triangulo <br>";
+        echo  $lado1, $lado2, $lado3;   
+        return $lado1 + $lado2 + $lado3;
+    }
+    else {
+        echo "-1";
+        return -1;
+    }
+}
+    
+
+
 
 
 // TESTS

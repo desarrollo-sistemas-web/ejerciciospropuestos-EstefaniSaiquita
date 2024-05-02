@@ -9,7 +9,15 @@
 
 // Aquí tu código
 
-
+function slug(string $srt ){
+    if ($str) {
+        $str = strtolower($str);
+        return strtolower($str);
+    }
+    elseif ($str == null) {
+        return error;
+    }
+}
 
 
 // TESTS
