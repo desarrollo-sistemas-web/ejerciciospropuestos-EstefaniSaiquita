@@ -5,7 +5,23 @@
 // Si el operador no es válido, la función deberá devolver -1.
 
 // Aquí tu código
-
+function operacion (int $num1, int $num2, string $matematico ){
+    if ($matematico == '+') {
+        return $num1 + $num2;
+    }
+    elseif ($matematico == '-') {
+        return $num1 - $num2;
+    }
+    elseif ($matematico == '*') {
+        return $num1 * $num2;
+    }
+    elseif ($matematico == '/') {
+        return $num1 / $num2;
+    }
+    elseif ($matematico == 'x') {
+        return -1;
+    }
+}
 
 
 

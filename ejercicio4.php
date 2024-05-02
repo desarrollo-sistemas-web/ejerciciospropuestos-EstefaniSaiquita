@@ -6,7 +6,13 @@
 
 // Aquí tu código
 
-
+function mayorDelArreglo ($array){
+    if ($array) {
+        return max($array);
+    }elseif ($array == null) {
+        return -1;
+    }
+}
 
 
 // TESTS
